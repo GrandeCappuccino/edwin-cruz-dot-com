@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(94, 94, 94);
+    
+}
+
+h2 {
+    
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0px 24px;
+    margin-bottom: 56px;
+    line-height: 32px;;
+    
+}
+
+.hero h1:hover {
+    color:  #76B4EE;
+}
+
+.container li {
+    margin-left: 24px;
+}
+
+.accent {
+    color: #76B4EE;
+}
+
+nav {
+    background-color: #76B4EE ;
+    color: white;
+    height: 68px;
+    padding: 24px;
+    font-weight: 900;
+    margin-bottom: 84px;
+}
+
+.hero {
+    line-height: 48px;
+    color: #EBEBEB;
+}
+
+.brand {
+    float: left;
+   
+}
+
+.social {
+    float: right;
+}
+
+.social li {
+    display: inline;
+    margin: 0;
+    margin-left: 24px;
+}
+
