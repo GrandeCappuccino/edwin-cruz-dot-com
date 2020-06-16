@@ -5,7 +5,7 @@
                     }
                     
                     body {
-                        font-family: Work Sans;
+                        font-family: Work Sans, sans-serif;
                         font-style: normal;
                         font-weight: normal;
                         font-size: 16px;
@@ -154,7 +154,7 @@
                         display: none;
                     }
                     
-                    @media only screen and (max-width: 500px) {
+                    @media only screen and (max-width: 700px) {
                         #edwin-sits {
                             display: none;
                         }
