@@ -1,67 +1,175 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(94, 94, 94);
-    
-}
-
-h2 {
-    
-    font-weight: 400;
-    margin-bottom: 16px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0px auto;
-    padding: 0px 24px;
-    margin-bottom: 56px;
-    line-height: 32px;;
-    
-}
-
-.hero h1:hover {
-    color:  #76B4EE;
-}
-
-.container li {
-    margin-left: 24px;
-}
-
-.accent {
-    color: #76B4EE;
-}
-
-nav {
-    background-color: #76B4EE ;
-    color: white;
-    height: 68px;
-    padding: 24px;
-    font-weight: 900;
-    margin-bottom: 84px;
-}
-
-.hero {
-    line-height: 48px;
-    color: #EBEBEB;
-}
-
-.brand {
-    float: left;
-   
-}
-
-.social {
-    float: right;
-}
-
-.social li {
-    display: inline;
-    margin: 0;
-    margin-left: 24px;
-}
-
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        font-family: Work Sans;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 160.3%;
+                        /* or 26px */
+                        color: #495057;
+                        background: #e7f5ff;
+                    }
+                    
+                    h1,
+                    h2 {
+                        color: #495057;
+                        color: #1c7ed6;
+                    }
+                    
+                    h1 {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 36px;
+                        line-height: 44px;
+                        margin-bottom: 24px;
+                    }
+                    
+                    h2 {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 22px;
+                        /* identical to box height */
+                        margin-bottom: 8px;
+                    }
+                    
+                    p {
+                        margin-bottom: 24px;
+                    }
+                    
+                    nav {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border: 2px solid #505050;
+                        background-color: white;
+                        box-sizing: border-box;
+                        border-radius: 4px;
+                        font-family: 'Montserrat';
+                        height: 73px;
+                        padding: 24px;
+                        font-weight: 900;
+                        margin-top: 24px;
+                        margin-left: 24px;
+                        margin-right: 24px;
+                        margin-bottom: 48px;
+                    }
+                    
+                    footer {
+                        text-align: center;
+                        margin-bottom: 24px;
+                    }
+                    
+                    a {
+                        color: #228be6;
+                    }
+                    
+                    .container {
+                        max-width: 920px;
+                        margin: 0px auto;
+                        padding: 0px 24px;
+                        margin-bottom: 24px;
+                        line-height: 32px;
+                    }
+                    
+                    .col-5 {
+                        max-width: 372px;
+                    }
+                    
+                    .hero h1:hover {
+                        color: #76B4EE;
+                    }
+                    
+                    .container li {
+                        margin-left: 24px;
+                    }
+                    
+                    .accent {
+                        color: #76B4EE;
+                    }
+                    
+                    .hero {
+                        line-height: 48px;
+                        color: #EBEBEB;
+                    }
+                    
+                    .brand {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        text-transform: lowercase;
+                        font-feature-settings: 'cpsp' on;
+                        color: #495057;
+                    }
+                    
+                    .social li {
+                        display: inline;
+                        margin: 0;
+                        margin-left: 16px;
+                        color: #495057;
+                    }
+                    
+                    a.btn {
+                        background: #FFFFFF;
+                        border: 2px solid #505050;
+                        box-sizing: border-box;
+                        border-radius: 4px;
+                        font-family: Work Sans;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 150.8%;
+                        /* identical to box height, or 18px */
+                        text-transform: uppercase;
+                        padding: 16px 24px;
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #505050;
+                        margin-top: 24px;
+                    }
+                    
+                    .main {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    .img-placeholder {
+                        width: 60%;
+                    }
+                    
+                    #edwin-sits {
+                        width: 100%
+                    }
+                    
+                    #edwin-stands {
+                        display: none;
+                    }
+                    
+                    @media only screen and (max-width: 500px) {
+                        #edwin-sits {
+                            display: none;
+                        }
+                        .img-placeholder {
+                            display: none;
+                        }
+                        .brand,
+                        .social {
+                            font-size: 12px;
+                        }
+                        footer {
+                            padding: 24px;
+                        }
+                        #edwin-stands {
+                            display: flex;
+                            justify-content: center;
+                        }
+                    }
