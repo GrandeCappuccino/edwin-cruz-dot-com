@@ -168,8 +168,10 @@
                         footer {
                             padding: 24px;
                         }
-                        #edwin-stands {
-                            display: flex;
-                            justify-content: center;
+                        h1 {
+                            font-size: 24px;
+                        }
+                        h2 {
+                            12px;
                         }
                     }
