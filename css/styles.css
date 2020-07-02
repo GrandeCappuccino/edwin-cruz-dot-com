@@ -25,8 +25,8 @@
                         font-family: Montserrat;
                         font-style: normal;
                         font-weight: bold;
-                        font-size: 36px;
-                        line-height: 99.5%;
+                        font-size: 32px;
+                        line-height: 112%;
                         /* or 36px */
                         margin-bottom: 10px;
                     }
@@ -55,7 +55,7 @@
                         font-family: 'Montserrat';
                         height: 73px;
                         padding: 24px;
-                        font-weight: 900;
+                        font-weight: 700;
                         margin-top: 24px;
                         margin-left: 24px;
                         margin-right: 24px;
@@ -65,6 +65,7 @@
                     footer {
                         text-align: center;
                         margin-bottom: 24px;
+                        font-size: 16px;
                     }
 
                     a {
@@ -73,9 +74,9 @@
 
                     .container {
                         
-                        max-width: 920px;
+                        max-width: 1200px;
                         margin: 0px auto;
-                        padding: 0px 24px;
+                        padding: 0px 56px;
                         margin-bottom: 24px;
                     }
 
@@ -144,13 +145,10 @@
                         display: grid;
                         grid-template-columns: repeat(12, 1fr);
                         grid-gap: 1.9%;
-                        /* display: flex;
-                        justify-content: space-between;
-                        align-items: center; */
+                        
                     }
                     .content {
-                        /* display: grid; */
-                        grid-column: 1/7;
+                        grid-column: 1/6;
                     }
                     .img-placeholder{
                         grid-column: 7/13;
