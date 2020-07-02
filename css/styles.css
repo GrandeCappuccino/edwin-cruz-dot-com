@@ -13,7 +13,7 @@
                         /* or 26px */
                         color: #495057;
                         background: #e7f5ff;
-                        /* display:flex; */
+                        
                     }
 
                     h1, h2 {
@@ -189,7 +189,7 @@
                             display: none;
                         }
                         .brand, .social {
-                            font-size: 20px;
+                            font-size: 16px;
                         }
                         footer {
                             padding: 24px;
@@ -202,7 +202,7 @@
                         }
                         .content {
                             /* display: grid; */
-                            grid-column: 1/13;
+                            grid-column: 2/12;
                         }
 
                         .btn {
@@ -211,7 +211,8 @@
                         }
 
                         .social li {
-                            margin-left: 12px;
+                            margin-left: 8px;
+                            font-size: 32px;
                         }
 
                     }
