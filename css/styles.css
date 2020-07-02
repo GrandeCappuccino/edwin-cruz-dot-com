@@ -3,47 +3,47 @@
                         padding: 0;
                         box-sizing: border-box;
                     }
-                    
+
                     body {
-                        font-family: Work Sans, sans-serif;
+                        font-family: Work Sans;
                         font-style: normal;
                         font-weight: normal;
                         font-size: 16px;
-                        line-height: 160.3%;
+                        line-height: 147%;
                         /* or 26px */
                         color: #495057;
                         background: #e7f5ff;
+                        /* display:flex; */
                     }
-                    
-                    h1,
-                    h2 {
+
+                    h1, h2 {
                         color: #495057;
                         color: #1c7ed6;
                     }
-                    
+
                     h1 {
                         font-family: Montserrat;
                         font-style: normal;
                         font-weight: bold;
                         font-size: 36px;
-                        line-height: 44px;
-                        margin-bottom: 24px;
+                        line-height: 99.5%;
+                        /* or 36px */
+                        margin-bottom: 10px;
                     }
-                    
+
                     h2 {
                         font-family: Montserrat;
                         font-style: normal;
                         font-weight: bold;
-                        font-size: 18px;
-                        line-height: 22px;
-                        /* identical to box height */
-                        margin-bottom: 8px;
+                        font-size: 20px;
+                        line-height: 115.9%;
+                        margin-bottom: 10px;
                     }
-                    
+
                     p {
-                        margin-bottom: 24px;
+                        margin-bottom: 22px;
                     }
-                    
+
                     nav {
                         display: flex;
                         justify-content: space-between;
@@ -59,47 +59,45 @@
                         margin-top: 24px;
                         margin-left: 24px;
                         margin-right: 24px;
-                        margin-bottom: 48px;
+                        margin-bottom: 33px;
                     }
-                    
+
                     footer {
                         text-align: center;
                         margin-bottom: 24px;
                     }
-                    
+
                     a {
                         color: #228be6;
                     }
-                    
+
                     .container {
+                        
                         max-width: 920px;
                         margin: 0px auto;
                         padding: 0px 24px;
                         margin-bottom: 24px;
-                        line-height: 32px;
                     }
-                    
-                    .col-5 {
-                        max-width: 372px;
-                    }
-                    
+
+                  
+
                     .hero h1:hover {
                         color: #76B4EE;
                     }
-                    
+
                     .container li {
                         margin-left: 24px;
                     }
-                    
+
                     .accent {
                         color: #76B4EE;
                     }
-                    
+
                     .hero {
                         line-height: 48px;
                         color: #EBEBEB;
                     }
-                    
+
                     .brand {
                         font-family: Montserrat;
                         font-style: normal;
@@ -109,14 +107,19 @@
                         font-feature-settings: 'cpsp' on;
                         color: #495057;
                     }
-                    
+
                     .social li {
                         display: inline;
                         margin: 0;
                         margin-left: 16px;
                         color: #495057;
                     }
-                    
+
+                    .social a {
+                        text-decoration: none;
+                        color:  #495057;
+                    }
+
                     a.btn {
                         background: #FFFFFF;
                         border: 2px solid #505050;
@@ -133,37 +136,60 @@
                         display: inline-block;
                         text-decoration: none;
                         color: #505050;
-                        margin-top: 24px;
+                        
                     }
-                    
-                    .main {
-                        display: flex;
+
+                    .container {
+                        max-width: 920px;
+                        display: grid;
+                        grid-template-columns: repeat(12, 1fr);
+                        grid-gap: 1.9%;
+                        /* display: flex;
                         justify-content: space-between;
-                        align-items: center;
+                        align-items: center; */
                     }
-                    
-                    .img-placeholder {
-                        width: 60%;
+                    .content {
+                        /* display: grid; */
+                        grid-column: 1/7;
                     }
-                    
+                    .img-placeholder{
+                        grid-column: 7/13;
+                        margin-top: 72px;
+                    }
+
+
                     #edwin-sits {
                         width: 100%
                     }
-                    
+
                     #edwin-stands {
                         display: none;
                     }
-                    
+
+                    .fab {
+                        display: none;
+                    }
+
                     @media only screen and (max-width: 700px) {
+                        .fab {
+                            display: inline-block;
+                            /* font-size: 24px; */
+                        }
+                        .nav-link {
+                            display: none;
+                        }
+                        #edwin-stands {
+                            margin: 31px auto;
+                            display: block;
+                        }
                         #edwin-sits {
                             display: none;
                         }
                         .img-placeholder {
                             display: none;
                         }
-                        .brand,
-                        .social {
-                            font-size: 12px;
+                        .brand, .social {
+                            font-size: 20px;
                         }
                         footer {
                             padding: 24px;
@@ -172,6 +198,20 @@
                             font-size: 24px;
                         }
                         h2 {
-                            12px;
+                            font-size: 20px;
                         }
+                        .content {
+                            /* display: grid; */
+                            grid-column: 1/13;
+                        }
+
+                        .btn {
+                            text-align: center;
+                            width: 100%;
+                        }
+
+                        .social li {
+                            margin-left: 12px;
+                        }
+
                     }
